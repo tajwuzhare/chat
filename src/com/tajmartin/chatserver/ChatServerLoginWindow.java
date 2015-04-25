@@ -5,6 +5,8 @@
  */
 package com.tajmartin.chatserver;
 
+import java.awt.Color;
+
 /**
  *
  * @author tux
@@ -17,6 +19,7 @@ public class ChatServerLoginWindow extends javax.swing.JFrame {
     public ChatServerLoginWindow() {
         initComponents();
         setLocationRelativeTo(null);
+        getContentPane().setBackground(Color.GRAY);
     }
 
     /**
